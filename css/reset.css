@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+ul,li,a{
+    list-style: none;
+    text-decoration: none;
+}
+
+.fr {
+    float: right;
+}
+.fl {
+    float: left;
+}
+.hidde {
+    display: none;
+}

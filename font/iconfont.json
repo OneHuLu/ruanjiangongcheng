@@ -1,0 +1,51 @@
+{
+  "id": "2524783",
+  "name": "hotel",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1385275",
+      "name": "登录",
+      "font_class": "denglu",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "2484291",
+      "name": "标签",
+      "font_class": "biaoqian",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "7683242",
+      "name": "上箭头",
+      "font_class": "shangjiantou",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "11436564",
+      "name": "下箭头",
+      "font_class": "arrowdown",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "13011471",
+      "name": "地球",
+      "font_class": "diqiu",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    },
+    {
+      "icon_id": "19355364",
+      "name": "日 历",
+      "font_class": "rili",
+      "unicode": "e647",
+      "unicode_decimal": 58951
+    }
+  ]
+}
