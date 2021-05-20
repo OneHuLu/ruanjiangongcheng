@@ -18,6 +18,7 @@
     background: #9c9c9c;
     height: 100px;
     overflow: hidden;
+    color: #ffffff;
 }
 #navTop .logo {
     margin-left: 4%;
@@ -26,6 +27,9 @@
 #navTop .leftNav {
     margin-right: 4%;
     width: 250px;
+}
+#navTop .leftNav a {
+    color: #ffffff;
 }
 #navTop .leftNav span {
     padding-right: 10px;
@@ -46,7 +50,6 @@
 #navBottom {
     position: relative;
     height: 15px;
-    left: -10;
     top: 0;
     overflow: hidden;
 }

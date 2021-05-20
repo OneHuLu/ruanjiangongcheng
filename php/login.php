@@ -30,10 +30,12 @@
         if($_POST['userPwd'] != $pwd['login_pwd']) {
             $state_json["pt"] = "0";
         } else {
+            $userSql = "select user_name from client_tab where  login_counet = '$userCount'";
+            $userName = fetchOne($link, $userSql);
+            $state_json['na'] = $userName['user_name'];
+            $state_json['ut'] = $userCount;
             $state_json["pt"] = "1";
         }
     }
-
-    print_r($state_json);
     $state_json = json_encode($state_json);
     header("Location: ../login.html?s=".$state_json);

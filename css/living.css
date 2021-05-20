@@ -1,0 +1,62 @@
+/*living样式设置*/
+#both {
+    background: lightcyan;
+    overflow: hidden;
+}
+/*leftDiv左侧信息展示栏*/
+#both .leftDiv {
+    /*background-color: blue;*/
+    width: 18%;
+    height: 620px;
+    color: #ffffff;
+    text-align: center;
+}
+#both .leftDiv ul {
+    background-color: #e6e6e6;
+}
+#both .leftDiv ul li {
+    font-weight: bold;
+    height: 30px;
+    padding: 16px;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+}
+#both .leftDiv ul li a{
+    color: black;
+}
+/*@-webkit-keyframes shangFu {*/
+/*    0%{*/
+/*        translateZ(0);*/
+/*    }*/
+/*    50% {*/
+/*        translateZ(1000);*/
+/*    }*/
+/*    100% {*/
+/*        translateZ(0);*/
+/*    }*/
+/*}*/
+#both .leftDiv ul li:hover {
+    background-color: #ee9900;
+    /*animation: shangFu 2s ease-in-out;*/
+}
+    /*rightDiv右侧详细信息显示*/
+#both .rightDiv {
+    background-color: yellow;
+    width: 82%;
+    text-align: center;
+}
+#both .rightDiv  .tabChange {
+    height: 621px;
+    background-image: url("../img/0.webp");
+}
+#both .rightDiv  .tabChange table {
+    margin: 0 auto;
+    width: 1000px;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 50px;
+    border: 1px solid red;
+}
+#both .rightDiv  .tabChange table tr td {
+    margin-left: 6px;
+}

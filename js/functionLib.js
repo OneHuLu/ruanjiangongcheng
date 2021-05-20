@@ -36,7 +36,7 @@ function getValue(method,url,async) {
 }
 
 /**
- *
+ *获取url后的数据，并转换为json数据格式
  * @param name
  * @returns {string|null}
  */
