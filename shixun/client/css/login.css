@@ -1,0 +1,36 @@
+body {
+    background-image: url("https://sitecore-cd-imgr.shangri-la.com/MediaFiles/9/C/8/%7B9C87AC67-632F-49FB-B7B8-D8F6CF7A1281%7DHorizon%20Lounge%201920x800.jpg");
+}
+#inputInfo {
+    width: 600px;
+    margin: 100px auto;
+    text-align: center;
+    color: black;
+    border-radius: 20px;
+    background-color: rgba(243,244,246,0.5);
+}
+#inputInfo lable,#inputInfo h1 {
+    color: black;
+}
+#inputInfo h1 {
+    margin-top: 10px;
+}
+#inputInfo input {
+    border-radius: 10px;
+    margin-top: 20px;
+    height: 20px;
+    color: black;
+    outline: none;
+}
+#inputInfo p {
+    margin-top: 10px;
+}
+#inputInfo .submitBnt {
+    width: 150px;
+    height: 25px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+

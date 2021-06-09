@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>客房管理系统</title>
+    <link rel="stylesheet" href="../client/css/login.css">
+    <link rel="stylesheet" href="../client/css/reset.css">
+</head>
+<body>
+<div id="inputInfo">
+    <form action="php/clientInfoModify.php" method="post">
+        <h1>客房管理登录</h1>
+        <lable for="admin">账号:</lable>
+        <input type="text" name="admin" id="admin" onclick="inputNullCheck('admin');">
+        <br>
+        <lable for="adminPwd">密码:</lable>
+        <input type="password" name="adminPwd" id="adminPwd" onclick="inputNullCheck('adminPwd');">
+        <br>
+        <input type="submit" class="submitBnt" value="登 录">
+    </form>
+</div>
+<script src="../client/js/login.js"></script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+/*导航栏样式*/
+/*上导航栏样式*/
+#topChange {
+    font-size: 16px;
+    font-weight: bold;
+    background: #989898;
+}
+#topChange  ul {
+    width: 1200px;
+    margin: 0 auto;
+    height: 30px;
+    padding: 10px;
+    line-height: 30px;
+}
+#topChange  ul li {
+    float: left;
+    margin-left: 190px;
+}
+#topChange  ul li a {
+    color: #000000;
+}
+#topChange  ul li a:hover {
+    color: orangered;
+}
+/*搜索框样式*/
+.search {
+    margin: 0 auto;
+    color: #333333;
+    font-weight: bold;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+.search .count {
+    width: 300px;
+    height: 25px;
+    border: 1px solid #000000;
+    border-radius: 6px;
+}
+/*底部信息展示样式*/
+#bottomChange {
+    font-size: 14px;    
+    font-weight: bold;
+    text-align: center;
+}
+#bottomChange .tabChange {
+    /*padding-top: 20px;*/
+}
+#bottomChange .tabChange table {
+    width: 100%;
+}
+#bottomChange .tabChange tr td {
+    margin-left: 50px;
+}
+/*表格样式*/
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    text-align: center;
+}
+
+table td, table th {
+    border: 1px solid #cad9ea;
+    color: #666;
+    height: 30px;
+}
+
+table thead th {
+    background-color: #CCE8EB;
+    width: 350px;
+}
+
+table tr:nth-child(odd) {
+    background: #fff;
+}
+
+table tr:nth-child(even) {
+    background: #F5FAFA;
+}

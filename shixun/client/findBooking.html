@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/findBooking.css">
+    <link rel="stylesheet" href="css/reset.css">
+</head>
+<body>
+<div>
+    <div class="search">
+        <lable for="count">请输入查找的订单的账号:</lable>
+        <input type="text" name="count" id="count" class="count" placeholder="请输入查询的账号">
+        <input type="button" value="提交" id="btn">
+    </div>
+<!--    信息展示部分-->
+    <div>
+        <table>
+            <thead>
+            <tr>
+                <th>预约账号</th>
+                <th>预约房间</th>
+                <th>入住时间</th>
+                <th>离开时间</th>
+            </tr>
+            </thead>
+            <tbody id="show"></tbody>
+        </table>
+    </div>
+</div>
+<script src="js/functionLib.js"></script>
+<script src="js/findBooking.js"></script>
+</body>
+</html>

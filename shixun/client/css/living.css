@@ -1,0 +1,81 @@
+/*living样式设置*/
+#both {
+    background: lightcyan;
+    overflow: hidden;
+}
+/*leftDiv左侧信息展示栏*/
+#both .leftDiv {
+    width: 18%;
+    height: 620px;
+    color: #ffffff;
+    text-align: center;
+}
+#both .leftDiv ul {
+    background-color: #e6e6e6;
+}
+#both .leftDiv ul li {
+    font-weight: bold;
+    height: 30px;
+    padding: 16px;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+}
+#both .leftDiv ul li a{
+    color: black;
+}
+#both .leftDiv ul li:hover {
+    background-color: #ee9900;
+}
+    /*rightDiv右侧详细信息显示*/
+#both .rightDiv {
+    background-color: yellow;
+    width: 82%;
+    text-align: center;
+}
+#both .rightDiv  .tabChange {
+    height: 621px;
+    background-image: url("../img/0.webp");
+}
+#both .rightDiv  .tabChange table {
+    margin: 0 auto;
+    width: 1000px;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 50px;
+}
+#both .rightDiv  .tabChange table tr td {
+    margin-left: 6px;
+}
+/*tbody样式*/
+#both .rightDiv  .tabChange tbody {
+    font-size: 17px;
+    font-weight: unset;
+    margin-top: 10px;
+
+}
+#both .rightDiv  .tabChange tbody a {
+    color: black;
+}
+#both .rightDiv  .tabChange tbody tr:nth-child(n) {
+    background: #ffffff;
+    opacity: 0.5;
+}
+/*预定框样式*/
+#smb {
+    width: 600px;
+    height: 400px;
+    text-align: center;
+    position: absolute;
+    left: 600px;
+    top: 200px;
+    background: #9c9c9c;
+    opacity: 0.7;
+}
+#smb input {
+    margin-top: 40px;
+    border-radius: 5px;
+}
+#smb input:last-child {
+    width: 150px;
+    height: 30px;
+}

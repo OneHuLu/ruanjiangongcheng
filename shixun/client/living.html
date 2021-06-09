@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/living.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
+    <title>房间选购页面</title>
+</head>
+<body>
+<div>
+    <!--    上导航栏-->
+    <div id="navTop">
+        <div class="logo fl">
+            <h1>Good&nbsp;Hotel</h1>
+        </div>
+        <div class="leftNav fr">
+            <ul>
+                <li>
+                    <p>你好,<span id="usName"></span></p>
+                </li>
+                <li>|</li>
+                <li>
+                    <a href="findBooking.html">查找预定</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div id="both">
+    <div class="leftDiv fl" id="leftTab">
+        <ul>
+            <li><a href="###">单人间</a></li>
+            <li><a href="###">双人间</a></li>
+            <li><a href="###">三人间</a></li>
+            <li><a href="###">四人间</a></li>
+            <li><a href="###">电竞套房</a></li>
+            <li><a href="###">总统套房</a></li>
+            <li><a href="###">豪华套房</a></li>
+            <li><a href="###">行政套房</a></li>
+            <li><a href="###">花园套房</a></li>
+            <li><a href="###">特色套房</a></li>
+        </ul>
+    </div>
+    <div class="rightDiv fr " id="rightTab">
+        <div class="tabChange ">
+            <table>
+                <thead>
+                <tr>
+                    <td>房间号</td>
+                    <td>价格</td>
+                    <td>操作</td>
+                </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+        <div class="hidde">
+            <table>
+                <thead>
+                <tr>
+                    <td>房间号</td>
+                    <td>价格</td>
+                    <td>操作</td>
+                </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+        <div class="hidde">
+            <table>
+                <thead>
+                <tr>
+                    <td>房间号</td>
+                    <td>价格</td>
+                    <td>操作</td>
+                </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+        <div class="hidde">
+            <table>
+                <thead>
+                <tr>
+                    <td>房间号</td>
+                    <td>价格</td>
+                    <td>操作</td>
+                </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+        <div class="hidde">
+            <table>
+                <thead>
+                <tr>
+                    <td>房间号</td>
+                    <td>价格</td>
+                    <td>操作</td>
+                </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+        <div class="hidde">
+            <table>
+                <thead>
+                <tr>
+                    <td>房间号</td>
+                    <td>价格</td>
+                    <td>操作</td>
+                </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+        <div class="hidde">
+            <table>
+                <thead>
+                <tr>
+                    <td>房间号</td>
+                    <td>价格</td>
+                    <td>操作</td>
+                </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+        <div class="hidde">
+            <table>
+                <thead>
+                <tr>
+                    <td>房间号</td>
+                    <td>价格</td>
+                    <td>操作</td>
+                </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+        <div class="hidde">
+            <table>
+                <thead>
+                <tr>
+                    <td>房间号</td>
+                    <td>价格</td>
+                    <td>操作</td>
+                </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+        <div class="hidde">
+            <table>
+                <thead>
+                <tr>
+                    <td>房间号</td>
+                    <td>价格</td>
+                    <td>操作</td>
+                </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<!--    预定时弹出一个预定框，提交数据到后台-->
+<div id="smb" class="hidde">
+    <form action="php/livingBooking.php?" method="post">
+        <label for="roomNum">房间号:</label>
+        <input type="text" name="roomNum" id="roomNum" readonly="readonly">
+        <br>
+        <label for="livingRoom">入住时间:</label>
+        <input type="date" name="livingRoom" id="livingRoom">
+        <br>
+        <label for="leaveRoom">离开时间:</label>
+        <input type="date" name="leaveRoom" id="leaveRoom">
+        <br>
+        <label for="userCount">账号确认:</label>
+        <input type="text" name="userCount" id="userCount" readonly="readonly">
+        <br>
+        <input type="submit" value="预定">
+    </form>
+</div>
+
+<script type="text/javascript" src="js/functionLib.js"></script>
+<script type="text/javascript" src="js/living.js"></script>
+</body>
+</html>
